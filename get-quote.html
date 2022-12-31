@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #get-quote{
+            margin-top:100px !important;
+        }
+    </style>
+    <title>Get Quote - Product Name | Company Name</title>
+</head>
+<body>
+     <!-- nav bar starts here  -->
+
+     <nav class="navbar fixed-top container navbar-expand-lg navbar-dark">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand fw-bold color-gold" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-12 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/product.html">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav bar ends here  -->
+
+      <!-- Get Quote section starts here  -->
+
+      <div class="section container" id="get-quote"> 
+          <div class="heading text-center h1 my-3">Get Quote</div>
+
+          <div class="row">
+
+            <!-- Data Comes From Backend  -->
+
+            <div class="col-12 col-md-6">
+                <p class="h2"><b>Product Name</b></p>
+                <div class="text-muted">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quae velit soluta, enim ipsa omnis vel cupiditate ea qui dignissimos adipisci tenetur aliquam doloribus molestiae consequatur id quod itaque sapiente iste illo. Doloribus quis tempore totam quae quisquam et tempora, obcaecati eos dolore atque ducimus voluptatem corporis mollitia a incidunt laudantium distinctio quos? Dolor sint ipsum cumque voluptatem, laborum quaerat?</p>
+                </div>
+                <img src="https://source.unsplash.com/random/400x400/?sculpture" loading="lazy" class="w-75">
+              </div>
+
+            <div class="col-md-6 col-12 my-5">
+              <form action="" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="g-name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" name="g-email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="g-message" rows="9" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn bg-gold w-100">Submit</button>
+              </form>
+            </div>
+
+          </div>
+
+      </div>
+
+      <!-- Get Quote section ends here   -->
+
+
+       <!-- our latest products starts here -->
+
+       <div class="our-products container my-5 products" id="products">
+        <div class="heading h1 text-center">Our Latest Products</div>
+        <div class="cards-container row justify-content-between">
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/statue.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Statues</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/scarves-1.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Scarves</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/silk-carpet.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Silk Carpet</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- our latest products end here  -->
+
+      <!-- products start here  -->
+
+      <div class="our-products container my-5 products">
+        <div class="heading h1 text-center">Our Products</div>
+        <div class="cards-container row justify-content-between">
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/statue.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Statues</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/scarves-1.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Scarves</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/silk-carpet.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Silk Carpet</h5>
+                        <p class="card-text">we make the best statues in the world that helps us to be the best</p>
+                        <a href="#" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- products end here  -->
+
+
+</body>
+</html>
