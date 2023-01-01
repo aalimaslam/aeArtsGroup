@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#daa520" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #single-product{
+            margin-top:100px !important;
+        }
+        #single-product .images{
+            border-right: 1px solid #ccc;
+        }
+    </style>
+    <title>Contact | Ae Arts Group</title>
+  </head>
+  <body>
+    
+    <!-- nav bar starts here  -->
+
+    <nav class="navbar fixed-top container navbar-expand-lg navbar-dark">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand fw-bold color-gold" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-12 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/product.html">Our Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav bar ends here  -->
+
+      <!-- Single Product starts here  -->
+
+        <div class="container my-5 section d-flex align-items-center" id="single-product">
+          <div class="row d-flex justify-content-center">
+              <div class="col-md-10">
+                  <div class="card">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="images p-3">
+                                  <div class="text-center p-4"> 
+                                    <img id="main_image" src="https://source.unsplash.com/random/350x350/?statue" width="250" loading="lazy" /> 
+                                  </div>
+                                  <div class="thumbnail text-center"> 
+                                    <img onclick="change_image(this)" src="https://source.unsplash.com/random/350x350/?sculpture" width="70" loading="lazy"> 
+                                    <img onclick="change_image(this)" src="https://source.unsplash.com/random/350x350/?statues" width="70" loading="lazy"> 
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="product p-4">
+                                  <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Thai</span>
+                                      <h5 class="text-uppercase">Statues</h5>
+                                  </div>
+                                  <p class="about">Shop from a wide range of Statues from thailand. Pefect for your show off. we make the best statues in the world that helps us to be the best</p>
+                                  <div class="cart mt-4 align-items-center"> <button class="btn bg-gold text-white text-uppercase mr-2 px-4" onclick="window.location.href='/get-quote.html'">Get a Quote</button></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Single Product ends here   -->
+
+
+
+      <!-- our latest products starts here -->
+
+
+      <div class="our-products container my-5 products animate" id="products">
+        <div class="heading h1 text-center">Our Latest Products</div>
+        <div class="cards-container row justify-content-between">
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/statue.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Statues</h5>
+                        <p class="card-text">Khmer or Cambodian statues are stone sculptures that came from the Khmer dynasty and is typical of the architecture of the Angkor Wat. These sculptures are ... </p>
+                        <a href="/statues.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/scarves-1.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Scarves</h5>
+                        <p class="card-text">Kashmiri woven wool textile from four distinct breeds of Cashmere goats. These are hand-made scarves, stoles, and shawls can be of pure Cashmere wool that is ...</p>
+                        <a href="/scarves.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/silk-carpet.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Silk Carpet</h5>
+                        <p class="card-text">Silk carpets are known for their elegance and grace. Silk is a valuable natural fiber that can produce intricate patterns, distinct colors, and characteristic ... </p>
+                        <a href="/silk.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- our latest products end here  -->
+
+      <!-- products start here  -->
+
+      <div class="our-products container my-5 products animate">
+        <div class="heading h1 text-center">Our Products</div>
+        <div class="cards-container row justify-content-between">
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/statue.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Statues</h5>
+                        <p class="card-text">Khmer or Cambodian statues are stone sculptures that came from the Khmer dynasty and is typical of the architecture of the Angkor Wat. These sculptures are ...</p>
+                        <a href="/statues.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/scarves-1.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Scarves</h5>
+                        <p class="card-text">Kashmiri woven wool textile from four distinct breeds of Cashmere goats. These are hand-made scarves, stoles, and shawls can be of pure Cashmere wool that is ...</p>
+                        <a href="/scarves.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 card p-1 my-2">
+                    <img src="https://www.aeartsgroup.com/userfiles/thumbs/silk-carpet.jpg" class="card-img-top w-100" alt="Random Image"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Silk Carpet</h5>
+                        <p class="card-text">Silk carpets are known for their elegance and grace. Silk is a valuable natural fiber that can produce intricate patterns, distinct colors, and characteristic ... </p>
+                        <a href="/silk.html" class="btn bg-gold w-100">Product Details</a>
+                    </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- products end here  -->
+
+
+
+
+
+      <!-- footer starts here  -->
+
+      <footer class="footer">
+        <div class="text-center text-muted bg-light p-4">&copy; Copyright 2022</div>
+      </footer>
+
+      <!-- footer ends here  -->
+
+    <script defer>
+
+      let mainImg = document.getElementById("main_image");
+      
+      function change_image(image){
+          mainImg.src = image.src;
+      }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
